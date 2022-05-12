@@ -6,16 +6,16 @@ import Skeleton from '../../components/Skeleton'
 export default function Skeleton() {
  return(
   <div className="skeleton">
-   <div className="s-banner">
+    <div className="s-banner">
 
-   </div>
-   <div className="s-header">
+    </div>
+    <div className="s-header">
 
-   </div>
-   <div className="s-content"></div>
-   <div className="s-content"></div>
-   <div className="s-content"></div>
-
+    </div>
+    <div className="s-content"></div>
+    <div className="s-content"></div>
+    <div className="s-content"></div>
+   
    <style jsx>
     {`
      .skeleton {
@@ -40,8 +40,6 @@ export default function Skeleton() {
     }
     
     
-    
-    ` 
     `}
    </style>
   </div>
